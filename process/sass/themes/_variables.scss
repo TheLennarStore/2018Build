@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700');
+
+$main_font: 'Rubik', sans-serif;
+$f_thin: 300;
+$f_med: 500;
+$f_bold: 700;
+
+$dk_blue: #005daa;
+$lt_blue: #17aee2;
+$dk_grey: #707070;
+$lt_grey: #f6f6f6;
+$dk_green: #92cb43;
+$lt_green: #cde7a9;
+
+$red: #DC143C;
+$yellow: #FFD700;
+
+$hover_green: lighten($dk_green,20%);
+$hover_blue: lighten($lt_blue,20%);
+$hover_red: lighten($red,50%);
+$hover_yellow: lighten($yellow,30%);
+
+$black: #000;
+$white: #FFF;
+
+//to animate navigation icons
+@keyframes icon_rotate {
+  0% {transform: rotate(0deg);}
+  33% {transform: rotate(30deg);}
+  66% {transform: rotate(-30deg);}
+  100% {transform: rotate(0deg);}
+}
